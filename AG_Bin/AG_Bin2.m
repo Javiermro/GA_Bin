@@ -1,5 +1,5 @@
 %% Algorimo Genetico Binario %%%
-clc;
+clc;  % nada
 clear all;
 close all;
 nvdec = 8 ;
