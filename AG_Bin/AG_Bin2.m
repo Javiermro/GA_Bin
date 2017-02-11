@@ -55,12 +55,12 @@ pause(0.01)
 fprintf('--- Best solution: %6.8f ,x: %6.8f , y: %6.8f , Mean: %6.8f \n',Best,x,y,Mean); 
 %% fin figuras
 
-%     if (Best==LBest||igen==1)
-%       cbest = cbest+1 ; 
-%     else
-%       cbest = 1 ;
-%     end
-%     LBest = Best ;
+    if (Best==LBest||igen==1)
+      cbest = cbest+1 ; 
+    else
+      cbest = 1 ;
+    end
+    LBest = Best ;
 
 %% Scaling process (pag 320 Chandrupatla)
 % fh = max(Sol) ; fl = min(Sol) ;
