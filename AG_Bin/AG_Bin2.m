@@ -15,9 +15,6 @@ Selec = zeros(psize-nelit,1);
 %% POBLACION INICIAL %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Pop = InitPop2(nvbin, 2*nvdec, psize) ;
 
-% [Pop] = auxilio(Pop) ;
-
-
 %% INICIO DEL PROCESO ITERATIVO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 hold on ;
